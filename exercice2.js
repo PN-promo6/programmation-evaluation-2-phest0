@@ -17,7 +17,7 @@ function interfaceDisplay (booleen){
   }
 }
 // i create a parameter boolen to control the display
-var = displayCondition = true;
+let = displayCondition = true;
 // i call function to display
 interfaceDisplay(displayCondition);
 
@@ -79,10 +79,10 @@ function displayElementArrayOnArray(arrayString, booleen) {
 }
 }
 // i create a booleen to control array display
-var = displayCondition2 = false;
+let = displayCondition2 = false;
 displayElementArrayOnArray(filmList);
-let actionButton = document.getElementById("btn");
-actionButton.addEventListener("click", function() {
-displayCondition2 = true;
-displayCondition = false;
-}
+// let actionButton = document.getElementById("btn");
+// actionButton.addEventListener("click", function() {
+// displayCondition2 = true;
+// displayCondition = false;
+// }
